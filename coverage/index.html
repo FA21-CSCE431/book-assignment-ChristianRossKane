@@ -14,7 +14,7 @@
       <img src="./assets/0.12.3/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" class="hide">
-      <div class="timestamp">Generated <abbr class="timeago" title="2021-09-26T21:33:36+00:00">2021-09-26T21:33:36+00:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2021-09-26T22:03:55+00:00">2021-09-26T22:03:55+00:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -83,12 +83,12 @@
         
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#7071027029effeb98e39f358a4d5dcc06ff6ce57" class="src_link" title="app/controllers/books_controller.rb">app/controllers/books_controller.rb</a></td>
-            <td class="red strong cell--number t-file__coverage">36.11 %</td>
-            <td class="cell--number">72</td>
-            <td class="cell--number">36</td>
+            <td class="red strong cell--number t-file__coverage">39.39 %</td>
+            <td class="cell--number">69</td>
+            <td class="cell--number">33</td>
             <td class="cell--number">13</td>
-            <td class="cell--number">23</td>
-            <td class="cell--number">0.36</td>
+            <td class="cell--number">20</td>
+            <td class="cell--number">0.39</td>
             
           </tr>
         
@@ -303,12 +303,12 @@
         
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#5d7265f330408fde07700e74220bbda3e6f5c341" class="src_link" title="spec/feature/integration_spec.rb">spec/feature/integration_spec.rb</a></td>
-            <td class="red strong cell--number t-file__coverage">62.50 %</td>
+            <td class="red strong cell--number t-file__coverage">45.45 %</td>
             <td class="cell--number">18</td>
-            <td class="cell--number">8</td>
+            <td class="cell--number">11</td>
             <td class="cell--number">5</td>
-            <td class="cell--number">3</td>
-            <td class="cell--number">0.63</td>
+            <td class="cell--number">6</td>
+            <td class="cell--number">0.45</td>
             
           </tr>
         
@@ -398,7 +398,7 @@
     <h3>app/controllers/books_controller.rb</h3>
     <h4>
       <span class="red">
-  36.11%
+  39.39%
 </span>
 
       lines covered
@@ -407,9 +407,9 @@
     
 
     <div class="t-line-summary">
-      <b>36</b> relevant lines.
+      <b>33</b> relevant lines.
       <span class="green"><b>13</b> lines covered</span> and
-      <span class="red"><b>23</b> lines missed.</span>
+      <span class="red"><b>20</b> lines missed.</span>
     </div>
 
     
@@ -1152,45 +1152,12 @@
 
             
 
-            <code class="ruby">      params.require(:book).permit(:title)</code>
+            <code class="ruby">      params.require(:book).permit(:title, :author, :price, :published_date)</code>
           </li>
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="68">
-            
-            
-
-            
-
-            <code class="ruby">      params.require(:book).permit(:author)</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="missed" data-hits="0" data-linenumber="69">
-            
-            
-
-            
-
-            <code class="ruby">      params.require(:book).permit(:price)</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="missed" data-hits="0" data-linenumber="70">
-            
-            
-
-            
-
-            <code class="ruby">      params.require(:book).permit(:published_date)</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="71">
+          <li class="never" data-hits="" data-linenumber="68">
             
             
 
@@ -1201,7 +1168,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="72">
+          <li class="never" data-hits="" data-linenumber="69">
             
             
 
@@ -4285,7 +4252,7 @@
     <h3>spec/feature/integration_spec.rb</h3>
     <h4>
       <span class="red">
-  62.5%
+  45.45%
 </span>
 
       lines covered
@@ -4294,9 +4261,9 @@
     
 
     <div class="t-line-summary">
-      <b>8</b> relevant lines.
+      <b>11</b> relevant lines.
       <span class="green"><b>5</b> lines covered</span> and
-      <span class="red"><b>3</b> lines missed.</span>
+      <span class="red"><b>6</b> lines missed.</span>
     </div>
 
     
@@ -4384,24 +4351,24 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="8">
+          <li class="missed" data-hits="0" data-linenumber="8">
             
             
 
             
 
-            <code class="ruby">    #fill_in &#39;author&#39;, with: &#39;JK Rowling&#39;</code>
+            <code class="ruby">    fill_in &#39;author&#39;, with: &#39;JK Rowling&#39;</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="9">
+          <li class="missed" data-hits="0" data-linenumber="9">
             
             
 
             
 
-            <code class="ruby">    #fill_in &#39;price&#39;, with: 10.00</code>
+            <code class="ruby">    fill_in &#39;price&#39;, with: 10.00</code>
           </li>
         </div>
       
@@ -4417,13 +4384,13 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="11">
+          <li class="missed" data-hits="0" data-linenumber="11">
             
             
 
             
 
-            <code class="ruby">    #fill_in &#39;published_date&#39;, with: &#39;1997-06-26&#39;</code>
+            <code class="ruby">    fill_in &#39;published_date&#39;, with: &#39;1997-06-26&#39;</code>
           </li>
         </div>
       
