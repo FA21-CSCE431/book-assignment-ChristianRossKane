@@ -6,7 +6,7 @@ RSpec.describe "books/new", type: :view do
       title: "MyString",
       author: "MyString",
       price: 00.00,
-      published_date: '1997-06-26'
+      published_date: '0000-00-00'
     ))
   end
 

@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/csce4312/spec/feature/integration_spec.rb": {
+      "/csce4312/test_app/spec/feature/integration_spec.rb": {
         "lines": [
           null,
           1,
@@ -10,10 +10,10 @@
           1,
           1,
           1,
-          0,
-          0,
           null,
-          0,
+          null,
+          null,
+          null,
           0,
           0,
           0,
@@ -23,7 +23,7 @@
           null
         ]
       },
-      "/csce4312/spec/rails_helper.rb": {
+      "/csce4312/test_app/spec/rails_helper.rb": {
         "lines": [
           null,
           1,
@@ -91,7 +91,7 @@
           null
         ]
       },
-      "/csce4312/config/environment.rb": {
+      "/csce4312/test_app/config/environment.rb": {
         "lines": [
           null,
           1,
@@ -100,7 +100,7 @@
           1
         ]
       },
-      "/csce4312/config/application.rb": {
+      "/csce4312/test_app/config/application.rb": {
         "lines": [
           1,
           null,
@@ -126,7 +126,7 @@
           null
         ]
       },
-      "/csce4312/config/boot.rb": {
+      "/csce4312/test_app/config/boot.rb": {
         "lines": [
           1,
           null,
@@ -134,7 +134,7 @@
           1
         ]
       },
-      "/csce4312/config/environments/test.rb": {
+      "/csce4312/test_app/config/environments/test.rb": {
         "lines": [
           1,
           null,
@@ -198,7 +198,7 @@
           null
         ]
       },
-      "/csce4312/config/initializers/application_controller_renderer.rb": {
+      "/csce4312/test_app/config/initializers/application_controller_renderer.rb": {
         "lines": [
           null,
           null,
@@ -210,7 +210,7 @@
           null
         ]
       },
-      "/csce4312/config/initializers/assets.rb": {
+      "/csce4312/test_app/config/initializers/assets.rb": {
         "lines": [
           null,
           null,
@@ -228,7 +228,7 @@
           null
         ]
       },
-      "/csce4312/config/initializers/backtrace_silencers.rb": {
+      "/csce4312/test_app/config/initializers/backtrace_silencers.rb": {
         "lines": [
           null,
           null,
@@ -240,7 +240,7 @@
           1
         ]
       },
-      "/csce4312/config/initializers/content_security_policy.rb": {
+      "/csce4312/test_app/config/initializers/content_security_policy.rb": {
         "lines": [
           null,
           null,
@@ -274,7 +274,7 @@
           null
         ]
       },
-      "/csce4312/config/initializers/cookies_serializer.rb": {
+      "/csce4312/test_app/config/initializers/cookies_serializer.rb": {
         "lines": [
           null,
           null,
@@ -283,7 +283,7 @@
           1
         ]
       },
-      "/csce4312/config/initializers/filter_parameter_logging.rb": {
+      "/csce4312/test_app/config/initializers/filter_parameter_logging.rb": {
         "lines": [
           null,
           null,
@@ -293,7 +293,7 @@
           null
         ]
       },
-      "/csce4312/config/initializers/inflections.rb": {
+      "/csce4312/test_app/config/initializers/inflections.rb": {
         "lines": [
           null,
           null,
@@ -313,7 +313,7 @@
           null
         ]
       },
-      "/csce4312/config/initializers/mime_types.rb": {
+      "/csce4312/test_app/config/initializers/mime_types.rb": {
         "lines": [
           null,
           null,
@@ -321,7 +321,7 @@
           null
         ]
       },
-      "/csce4312/config/initializers/permissions_policy.rb": {
+      "/csce4312/test_app/config/initializers/permissions_policy.rb": {
         "lines": [
           null,
           null,
@@ -336,7 +336,7 @@
           null
         ]
       },
-      "/csce4312/config/initializers/wrap_parameters.rb": {
+      "/csce4312/test_app/config/initializers/wrap_parameters.rb": {
         "lines": [
           null,
           null,
@@ -354,7 +354,7 @@
           null
         ]
       },
-      "/csce4312/config/routes.rb": {
+      "/csce4312/test_app/config/routes.rb": {
         "lines": [
           1,
           1,
@@ -363,19 +363,19 @@
           null
         ]
       },
-      "/csce4312/app/helpers/application_helper.rb": {
+      "/csce4312/test_app/app/helpers/application_helper.rb": {
         "lines": [
           1,
           null
         ]
       },
-      "/csce4312/app/helpers/books_helper.rb": {
+      "/csce4312/test_app/app/helpers/books_helper.rb": {
         "lines": [
           1,
           null
         ]
       },
-      "/csce4312/app/controllers/books_controller.rb": {
+      "/csce4312/test_app/app/controllers/books_controller.rb": {
         "lines": [
           1,
           1,
@@ -444,17 +444,20 @@
           null,
           1,
           0,
+          0,
+          0,
+          0,
           null,
           null
         ]
       },
-      "/csce4312/app/controllers/application_controller.rb": {
+      "/csce4312/test_app/app/controllers/application_controller.rb": {
         "lines": [
           1,
           null
         ]
       },
-      "/csce4312/app/models/book.rb": {
+      "/csce4312/test_app/app/models/book.rb": {
         "lines": [
           1,
           1,
@@ -464,7 +467,7 @@
           null
         ]
       },
-      "/csce4312/app/models/application_record.rb": {
+      "/csce4312/test_app/app/models/application_record.rb": {
         "lines": [
           1,
           1,
@@ -472,6 +475,6 @@
         ]
       }
     },
-    "timestamp": 1632235859
+    "timestamp": 1632692014
   }
 }
