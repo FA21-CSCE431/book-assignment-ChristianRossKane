@@ -1,7 +1,7 @@
 <p id="notice"><%= notice %></p>
 
 <h1>Books</h1>
-<h1>This is a test version! V.2.3 - 9/26/21</h1>
+<h1>This is a test version! V.3.0 - 9/28/21</h1>
 
 <table>
   <thead>
@@ -23,7 +23,8 @@
         <td><%= book.published_date %></td>
         <td><%= link_to 'Show', book %></td>
         <td><%= link_to 'Edit', edit_book_path(book) %></td>
-        <td><%= link_to 'Destroy', book, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to("Delete", delete_book_path(book), :class => 'action delete') %></td>
+
       </tr>
     <% end %>
   </tbody>
